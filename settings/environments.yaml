@@ -1,0 +1,12 @@
+test:
+  pgsql:
+    host: localhost
+    port: 5432
+    name: db_name
+    user: username
+    password:
+  api_host: https://en.wikipedia.org
+production:
+  api_host: https://en.wikipedia.org
+stage:
+  api_host: https://en.wikipedia.org
